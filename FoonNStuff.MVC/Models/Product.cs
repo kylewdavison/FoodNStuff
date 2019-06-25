@@ -15,12 +15,14 @@ namespace FoonNStuff.MVC.Models
         public string Name { get; set; }
 
         [Required]
+        [Display(Name = "# In Stock")]
         public int InventoryCount { get; set; }
 
         [Required]
         public decimal Price { get; set; }
 
         [Required]
+        [Display(Name = "Is it food?")]
         public bool IsFood { get; set; }
 
     }
