@@ -19,5 +19,6 @@ namespace FoonNStuff.MVC.Models
 
         public string FullName => $"{FirstName} {LastName}";
         //public string FullName {get{return $"{FirstName} {LastName}";}}
+        //testing commit
     }
 }
